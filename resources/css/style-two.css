@@ -1,3 +1,7 @@
+body{
+  background-color: #F7BE81;
+}
+
 span{
   font-family: 'Courgette';
 }
@@ -102,4 +106,17 @@ li{
 
 #menu a{
   color: white;
+}
+
+@media only screen and (max-width: 900px){
+  .nosotras{
+    width: 250px;
+  }
+  #menu h3{
+    width: 100%;
+  }
+
+  .int{
+    width: 400px;
+  }
 }

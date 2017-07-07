@@ -1,3 +1,8 @@
+body{
+  background-color: #F7BE81;
+}
+
+
 span{
   font-family: 'Courgette';
 }
@@ -50,6 +55,65 @@ a{
   padding: 50px;
 }
 
+.mobile{
+  display: none;
+}
+
+.mobile span{
+  font-family: 'Courgette';
+  color:white;
+  font-size: 40px;
+  padding: 50px;
+}
+
+.mobile h3{
+  background-color: #EE7510;
+  opacity: 0.80;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  margin: 15px 0;
+  width: 100%;
+  font-family: 'Courgette';
+  color:white;
+  font-size: 40px;
+}
+
+@media only screen and (max-width: 1330px){
+  .menu{
+    display: none;
+  }
+
+  .mobile{
+    display: initial;
+  }
+
+  .one{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+  }
+
+  .two{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+  }
+
+  .botones span{
+  color: white;
+  border: 1px solid #EE7510;
+  background-color: #EE7510;
+  opacity: 0.80;
+  padding: 10px;
+  margin: 20px;
+}
+
+.nosotras-img{
+  display: none;
+}
+
+}
 
 #content{
 
@@ -57,6 +121,10 @@ a{
 
 .body{
 
+}
+
+.nos{
+  width: 190.297px;
 }
 
 .nosotras{
@@ -70,7 +138,7 @@ a{
   padding-bottom: 15px;
   padding-left: 30px;
   margin: 15px 0;
-  width: 10%;
+  width: 100%;
   font-family: 'Courgette';
   color:white;
   font-size: 40px;
@@ -104,8 +172,72 @@ a{
 
 }
 
+@media only screen and (max-width: 909px){
+  .nosotras-text{
+    width: 100%;
+    margin: 0 30px;
+  }
+
+  .nosotras-img{
+    display: none;
+  }
+
+  .botones{
+    margin: 50px 20px;
+  }
+}
+
+@media only screen and (max-width: 892px){
+  .botones{
+    margin: 50px 10px;
+  }
+}
+
+@media only screen and (max-width: 872px){
+  .botones{
+    display: block;
+    height: 200px;
+  }
+
+  .botones{
+    margin: 0 auto;
+  }
+
+  .sanguche{
+    margin-top: 35px;
+  }
+
+  .tarta{
+    margin-top: 35px;
+  }
+
+  .ensalada{
+    margin-top: 35px;
+  }
+
+  .platos{
+    margin-top: 0px;
+  }
+
+  .minutas{
+    margin-top: 35px;
+  }
+
+  .guarni{
+    margin-top: 35px;
+  }
+
+  .boton span{
+    font-size: 30px;
+  }
+}
+
 .menu{
 
+}
+
+.menues{
+  width: 190.297px;
 }
 
 .menu h3{
@@ -115,7 +247,7 @@ a{
   padding-bottom: 15px;
   padding-left: 30px;
   margin: 15px 0;
-  width: 10%;
+  width: 100%;
   font-family: 'Courgette';
   color:white;
   font-size: 40px;
@@ -171,8 +303,19 @@ margin-bottom: 30px;
   justify-content: space-around;
 }
 
+@media only screen and (max-width: 1330px){
+  #cuadros{
+    display: none;
+  }
+}
+
+
 #contacto{
 
+}
+
+.contacto{
+  width: 190.297px;
 }
 
 .contacto h3{
@@ -182,7 +325,7 @@ margin-bottom: 30px;
   padding-bottom: 15px;
   padding-left: 30px;
   margin: 15px 0;
-  width: 10%;
+  width: 100%;
   font-family: 'Courgette';
   color:white;
   font-size: 40px;
@@ -195,4 +338,10 @@ margin-bottom: 30px;
 .info span{
   font-size: 30px;
 
+}
+
+@media only screen and (max-width: 808px){
+  .info p{
+    display: none;
+  }
 }
