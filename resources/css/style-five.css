@@ -1,0 +1,110 @@
+span{
+  font-family: 'Courgette';
+}
+
+li{
+  font-family: 'Courgette';
+  font-size: 25px;
+}
+
+nav{
+  display: flex;
+}
+
+header{
+  width: 100%;
+}
+
+#barra{
+ display: flex;
+ justify-content: space-around;
+ background-color:#EE7510;
+ opacity: 0.80;
+ align-items: center;
+ height: 79px;
+ margin-top: 142px;
+
+}
+
+#barra a{
+  color: white;
+}
+
+.logo{
+
+}
+
+.logo img{
+
+}
+
+.menu{
+  display: none;
+}
+
+.menu span{
+  font-family: 'Courgette';
+  color:white;
+  font-size: 40px;
+  padding: 50px;
+}
+
+.nosotros{
+
+}
+
+.nosotras h3{
+  background-color: #EE7510;
+  opacity: 0.80;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  margin: 15px 0;
+  width: 100%;
+  font-family: 'Courgette';
+  color:white;
+  font-size: 40px;
+}
+
+.titulo{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.list span{
+  font-family: 'Amatic';
+  color: grey;
+}
+
+.precio span{
+  font-family: 'Amatic';
+  margin-left: 70px;
+  font-size: 55px;
+}
+
+
+.tipos{
+  display: flex;
+  justify-content: space-between;
+}
+
+.im{
+  width: 25%;
+}
+
+.im img{
+  width: 100%;
+}
+
+li{
+  line-height: 40px;
+}
+
+#menu h3{
+  width: 15%;
+}
+
+#menu a{
+  color: white;
+}
