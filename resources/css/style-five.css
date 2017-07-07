@@ -112,3 +112,35 @@ li{
 #menu a{
   color: white;
 }
+
+@media only screen and (max-width: 375px){
+  nav{
+    width: 375px;
+  }
+
+  .logo img{
+    width: 100%;
+  }
+
+  #barra{
+    height: 30.5px;
+    margin-top: 55px;
+  }
+
+  .titulo .body h3{
+    padding-left: 40px;
+    width: 335px;
+  }
+
+  .precio span{
+    margin-left: 39px;
+  }
+
+  .int{
+    width: 375px;
+  }
+
+  #menu h3{
+    width: 345px;
+  }
+}
